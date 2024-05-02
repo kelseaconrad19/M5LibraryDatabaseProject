@@ -124,27 +124,45 @@ Implement the following actions in response to menu selections using the classes
 ## Database Connection:
 
 1. Establish a connection to the MySQL database using the mysql-connector-python library.
-2. Create a database cursor to execute SQL queries. Functions for Data Manipulation:
-3. Create functions for adding new books, users, authors, and genres to the database.
-4. Implement functions for updating book availability, marking books as borrowed or returned.
-5. Develop functions for searching books by ISBN, title, author, or genre.
-6. Define functions for displaying lists of books, users, authors, and genres.
-7. Implement functions for user registration and viewing user details. User Interface Functions:
-8. Create a user-friendly command-line interface (CLI) with clear menu options.
-9. Implement functions to handle user interactions using the input() function.
-10. Validate user input using regular expressions (regex) to ensure proper formatting. Error Handling:
-11. Use try, except, else, and finally blocks to manage errors gracefully.
-12. Handle exceptions related to database operations, input validation, and other potential issues.
-13. Provide informative error messages to guide users. Clean Code Principles:
-14. Use meaningful variable and function names that convey their purpose.
-15. Write clear comments and docstrings to explain the functionality of functions and classes.
-16. Follow PEP 8 style guidelines for code formatting and structure.
-17. Ensure proper indentation and spacing for readability. Modular Design:
-18. Organize code into separate modules to promote modularity and maintainability.
-19. Create distinct modules for database operations, user interactions, error handling, and core functionalities. GitHub Repository:
-20. Create a GitHub repository for your project and commit code regularly.
-21. Maintain a clean and interactive README.md file in your GitHub repository, providing clear instructions on how to run the application and explanations of its features.
-22. Include a link to your GitHub repository in your project documentation.
+2. Create a database cursor to execute SQL queries.
+
+## Functions for Data Manipulation:
+
+1. Create functions for adding new books, users, authors, and genres to the database.
+2. Implement functions for updating book availability, marking books as borrowed or returned.
+3. Develop functions for searching books by ISBN, title, author, or genre.
+4. Define functions for displaying lists of books, users, authors, and genres.
+5. Implement functions for user registration and viewing user details.
+
+## User Interface Functions:
+
+1. Create a user-friendly command-line interface (CLI) with clear menu options.
+2. Implement functions to handle user interactions using the input() function.
+3. Validate user input using regular expressions (regex) to ensure proper formatting.
+
+## Error Handling:
+
+1. Use try, except, else, and finally blocks to manage errors gracefully.
+2. Handle exceptions related to database operations, input validation, and other potential issues.
+3. Provide informative error messages to guide users.
+
+## Clean Code Principles:
+
+1. Use meaningful variable and function names that convey their purpose.
+2. Write clear comments and docstrings to explain the functionality of functions and classes.
+3. Follow PEP 8 style guidelines for code formatting and structure.
+4. Ensure proper indentation and spacing for readability.
+
+## Modular Design:
+
+1. Organize code into separate modules to promote modularity and maintainability.
+2. Create distinct modules for database operations, user interactions, error handling, and core functionalities.
+
+## GitHub Repository:
+
+1. Create a GitHub repository for your project and commit code regularly.
+2. Maintain a clean and interactive README.md file in your GitHub repository, providing clear instructions on how to run the application and explanations of its features.
+3. Include a link to your GitHub repository in your project documentation.
 
 ### Optional Bonus Points:
 1. User Authentication (Bonus): Implement a user authentication system that requires users to create accounts and log in before accessing the library. This enhances security and allows for personalized features.
